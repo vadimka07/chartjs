@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <title>Заголовок страницы</title>
+</head>
+<body>
+<div class='wrapper'>
+  <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+  <include src='./partials/form.html'></include>
+  <include src='./partials/form-result.html'></include>
+  <include src='./partials/range-part.html'></include>
+  <div class='calculator-description'>
+    <h2>Sources: Perception Point’s customer data, IBM, S&P Global, and Market Experts</h2>
+    <p>This 'ROI Calculator tool' (“Calculator”) is provided herein in order to assist our website visitors with
+      calculating the potential ROI they can realize when using our product under certain use cases. The Calculator it
+      is provided on an ‘as is’ basis, without guarantee or warranty of any kind, express or implied (including
+      warranties of merchantability and/or fitness for a particular purpose) and without representation or warranty
+      regarding the accuracy, completeness, usefulness, timeliness, reliability or appropriateness. Perception Point
+      does not make any warranties and shall have no obligations, legal liability or responsibility for the use of the
+      Calculator, the accuracy of its results or a user’s actions following the use of the Calculator. </p>
+  </div>
+</div>
+<!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+<script src='./index.js'></script>
+</body>
+</html>
